@@ -11,7 +11,7 @@ function newTable(event) {
     let rows = formData.get('row');
     let columns = formData.get('column');
     if(columns < 1 || rows < 1) {
-        alert('colims and rows can not be less than 1');
+        alert('columns and rows can not be less than 1');
         return;
     }
     if(table) {
